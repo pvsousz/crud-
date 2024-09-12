@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Resolver questões",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "title": "Estudar",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "title": "Treinar",
+      "completed": false
+    },
+    {
+      "id": "4",
+      "title": "Ler o livro (LOTRO) ",
+      "completed": true
+    }
+  ]
+}
