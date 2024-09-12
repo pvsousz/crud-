@@ -1,0 +1,11 @@
+<div>
+  <h2>{{ task.id ? 'Edit Task' : 'Add New Task' }}</h2>
+  <form (ngSubmit)="saveTask()">
+    <label for="title">Title:</label>
+    <input id="title" [(ngModel)]="task.title" name="title" required>
+    <label for="completed">Completed:</label>
+    <input id="completed" type="checkbox" [(ngModel)]="task.completed" name="completed">
+    <button type="submit">Save</button>
+    <button type="button" (click)="cancel()">Cancel</button>
+  </form>
+</div>
